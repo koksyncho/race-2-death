@@ -1,0 +1,72 @@
+div {
+	display: inline-block;
+}
+
+table {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	/*background-color: #d4b483;*/
+}
+
+.table-vcenter td {
+   vertical-align: middle!important;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #f2e2ba;
+}
+/*
+tr {
+	text-align: center;
+	vertical-align: middle;
+}*/
+
+button:hover{
+    background-color: #bab19a;
+}
+/* active=onClick */
+button:active {
+    background-color: #938c7a;
+}
+
+button {
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	background-color: #d8ceb3;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.table {
+	display: table;         
+  	width: auto;         
+  	background-color: #eee;         
+  	border: 1px solid  #666666;         
+  	border-spacing: 5px;/*cellspacing:poor IE support for  this*/
+
+}
+
+.row {
+	display: table-row;
+  	width: auto;
+  	clear: both;
+  	table-layout: fixed;
+	/*border-spacing: 10px;*/
+}
+
+.column {
+	float: left;/*fix for  buggy browsers*/
+  	display: table-column;         
+  	width: auto;/*200px;*/         
+  	background-color: #ccc;
+  	text-align: center;
+	vertical-align: middle;
+}
